@@ -51,7 +51,7 @@ ul {
 }
 
 #encabezado {
-  margin: 30 px 0;
+  margin: 30px 0;
 }
 
 .submenu {
@@ -82,8 +82,18 @@ ul {
   color: white;
 }
 
+.contenido-hero {
+  margin-top: 80px;
+  color: white;
+}
+
 .contenido-hero form {
   position: relative;
+  margin-bottom: 0;
+}
+
+.contenido-hero form #buscador {
+  height: 50px;
   margin-bottom: 0;
 }
 
@@ -190,4 +200,9 @@ ul {
   display: block;
   text-decoration: none;
   margin-bottom: 10px;
+}
+
+#logo {
+  max-width: 30%;
+  padding-top: 5px 10px;
 }
